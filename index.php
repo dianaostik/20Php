@@ -54,6 +54,24 @@
         if(($num_cc < $num_aa && $num_aa < $num_bb) || ($num_cc > $num_aa && $num_aa > $num_bb)){
             echo("Reiksme = $num_aa");
         }
+        echo "<br><br>";
+
+//      //--------- 4uzd
+
+        echo "------- 4 uzduotis ------- <br>";
+            $num_a = rand(1,9);
+            $num_b = rand(1,9);
+            $num_c = rand(1,9);
+        echo("a=  $num_a  a=  $num_b  c=  $num_c  " );
+
+// if (((a+b)>c) && ((a+c)>b) && ((b+c)>a)){
+//     console.log ("Galima sudaryti trikampi.");
+// } else {
+//         console.log ("Negalima.");
+// }
+
+
+
     ?>
 </body>
 </html>
